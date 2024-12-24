@@ -198,7 +198,7 @@ gaps outer 20
 # Auto Tiling https://github.com/chmln/i3-auto-layout 
 exec_always --no-startup-id $HOME/.cargo/bin/i3-auto-layout
 
-set $web 'chromium'
+set $web 'firefox'
 set $file 'nvim'
 set $mail 'neomutt'
 set $music 'spotify-launcher'

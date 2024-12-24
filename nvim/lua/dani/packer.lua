@@ -40,4 +40,5 @@ return require('packer').startup(function(use)
   requires = { 'kyazdani42/nvim-web-devicons', opt = true }
     }
     use 'ThePrimeagen/vim-be-good'
+    use 'lervag/vimtex'
 end)

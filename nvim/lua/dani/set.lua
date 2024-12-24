@@ -1,3 +1,4 @@
+vim.g.vimtex_view_method = 'mupdf'
 vim.opt.guicursor = ""
 
 vim.opt.nu = true
@@ -15,3 +16,7 @@ vim.opt.smartindent = true
 vim.opt.wrap = false
 
 vim.g.mapleader = " "
+
+vim.diagnostic.config({
+    virtual_text = false,
+})
