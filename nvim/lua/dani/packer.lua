@@ -25,10 +25,12 @@ return require('packer').startup(function(use)
       }
     }
   use 'RRethy/nvim-base16'
+  --[[
   use {
         'nvim-treesitter/nvim-treesitter',
         run = function() require('nvim-treesitter.install').update({ with_sync = true }) end,
     }
+  --]]
   use 'nvim-lua/plenary.nvim'
   use {
         'nvim-telescope/telescope.nvim', tag = '0.1.0',
